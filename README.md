@@ -25,6 +25,8 @@ This is a list of things that are either broken, have an issue or will be Implem
      * Pest control needs a bit of work, very lazy version was included in the source. Portals need to be added to their respective locations and NPC Summoning needs to be added. 
 * Summoning Skill
 	 * Currently summoning does work, but you are unable to dismiss your pet. There is also a bit of a glitch where if you "Toggle" the Summon option on a pet it will no longer be attached to you after a teleport. 
+* Passwords
+     * Currently passwords are saved in plaintext, will need to implement some sort of salted hashing function.
 		 
 		  
 This list will surely grow as I work on the source, there is a lot to be done.
@@ -37,6 +39,8 @@ This list will surely grow as I work on the source, there is a lot to be done.
 	 * This may turn out to be a new skill, everyone will have an account number at some point and users will be able to sniff around and find these account numbers, they will then have some sort of work to be able to hack the account and perhaps withdraw a random item into their own bank account, I am not entirely sure how i am going to work it yet but it will come!
 * Ddos
 	 * I want to impliment some sort of ddos to the game, perhaps not in the typical sense but perhaps a spell you could cast on another player during pk. In order to be able to utilize this new spell you must have x level in hacking. I am not quite sure yet what the effect will be so I am open to suggestions. 
+* Account Hacking Events
+     * A user account is created with valuable items in its bank account and your job is to crack the password. The initial password clue will be visible to all players and the winner is the one who follows the trail, logs into the account and transfers out the items to their own bank account. I am very excited about this event, should be alot of fun!
 	 
 If you have any ideas on a new skill or something that may compliment my ideas, please let me know! I woud love to hear from you. If you think you are capable of helping/coding some of these, feel free to open a pull request! Thanks. 
 

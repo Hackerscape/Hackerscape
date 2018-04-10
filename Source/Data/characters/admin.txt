@@ -1,6 +1,6 @@
 [ACCOUNT]
 character-username = admin
-character-password = hacker
+character-password = password
 connected-from = 127.0.0.1
 
 [CHARACTER]
