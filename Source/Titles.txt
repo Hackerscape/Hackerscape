@@ -1,0 +1,9 @@
+1. Sir
+2. Lady
+3. Boss
+4. Donor
+5. Dicer
+6. Trusted
+7. Owner
+8. Moderator
+

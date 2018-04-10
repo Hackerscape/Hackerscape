@@ -1,0 +1,9 @@
+1- Moderator
+2- Administrator
+3- Co-Owner
+4- Donator
+5- Sponsor
+6- Owner
+7- Veteran
+8- Trusted
+9- Helper
