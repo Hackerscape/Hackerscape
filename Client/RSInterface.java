@@ -117,7 +117,7 @@ public final class RSInterface {
 				rsInterface.textShadowed = stream.readUnsignedByte() == 1;
 			}
 			if(rsInterface.interfaceType == 4) {
-				rsInterface.disabledMessage = stream.readString().replaceAll("RuneScape", "Nerio");
+				rsInterface.disabledMessage = stream.readString().replaceAll("RuneScape", "Hackerscape");
 				rsInterface.enabledMessage = stream.readString();
 			}
 			if(rsInterface.interfaceType == 1 || rsInterface.interfaceType == 3 || rsInterface.interfaceType == 4)
@@ -5290,7 +5290,7 @@ public static void SummonTab(RSFont[] wid) {
 		rsInterface.scrollMax = 0;
 		rsInterface.aBoolean266 = false;
 		//addText(int id, String Text, tda, int FontSize, int color);
-		addText(3649, "Welcome to Nerio - Use the buttons below to design your character", TDA, 2, 0xFF9442);
+		addText(3649, "Welcome to Hackerscape - Use the buttons below to design your character", TDA, 2, 0xFF9442);
 		addText(3658, "Torso", TDA, 1, 0xFF9442);
 		addText(3673, "Arms", TDA, 1, 0xFF9442);
 		addText(3674, "Legs", TDA, 1, 0xFF9442);

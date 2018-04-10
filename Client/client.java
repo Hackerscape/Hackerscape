@@ -981,7 +981,7 @@ TextDrawingArea textDrawingArea = newRegularFont;
 
 	public void init() { 
 		try {
-			System.out.println("Nerio is loading..");
+			System.out.println("Hackerscape is loading..");
 			nodeID = 10;//friends list order
 			portOff = 0;
 			setHighMem();
@@ -6778,7 +6778,7 @@ magicAuto = null;
 							launchURL("neriops.createaforum.com");
 						}
 						if(inputString.equals("::vote")) {
-							launchURL("http://topg.org/server-nerio-id456360");
+							launchURL("http://topg.org/server-Hackerscape-id456360");
 			}
 						if(inputString.equals("::register")) {
 							launchURL("neriops.createaforum.com");
@@ -8607,7 +8607,7 @@ RSFont textDrawingArea = aTextDrawingArea_1271;
 			}
 			if(k == 6)
 			{
-				loginMessage1 = "Nerio has been updated!";
+				loginMessage1 = "Hackerscape has been updated!";
 				loginMessage2 = "Please reload this page.";
 				return;
 			}
@@ -9796,7 +9796,7 @@ reestablish = new Sprite("reestablish");
 			g.setFont(new Font("Helvetica", 1, 16));
 			g.setColor(Color.yellow);
 			int k = 35;
-			g.drawString("Sorry, an error has occured whilst loading Nerio.", 30, k);
+			g.drawString("Sorry, an error has occured whilst loading Hackerscape.", 30, k);
 			k += 50;
 			g.setColor(Color.white);
 			g.drawString("To fix this try the following (in order):", 30, k);
@@ -9819,7 +9819,7 @@ reestablish = new Sprite("reestablish");
 			g.setFont(new Font("Helvetica", 1, 20));
 			g.setColor(Color.white);
 			g.drawString("Error - unable to load game!", 50, 50);
-			g.drawString("To play Nerio make sure you play from", 50, 100);
+			g.drawString("To play Hackerscape make sure you play from", 50, 100);
 			g.drawString("Link here", 50, 150);
 		}
 		if(rsAlreadyLoaded)
@@ -9827,7 +9827,7 @@ reestablish = new Sprite("reestablish");
 			aBoolean831 = false;
 			g.setColor(Color.yellow);
 			int l = 35;
-			g.drawString("Error a copy of Nerio already appears to be loaded", 30, l);
+			g.drawString("Error a copy of Hackerscape already appears to be loaded", 30, l);
 			l += 50;
 			g.setColor(Color.white);
 			g.drawString("To fix this try the following (in order):", 30, l);
@@ -12329,7 +12329,7 @@ drawCoinOrb();
 				int i = c1 / 2 + 80;
 				smallText.method382(0x75a9a9, c / 2, onDemandFetcher.statusString, i, true);
 				i = c1 / 2 - 20;
-				chatTextDrawingArea.method382(0xffff00, c / 2, "Welcome to Nerio", i, true);
+				chatTextDrawingArea.method382(0xffff00, c / 2, "Welcome to Hackerscape", i, true);
 				i += 30;
 				int l = c / 2 - 80;
 				int k1 = c1 / 2 + 20;
@@ -12364,7 +12364,7 @@ drawCoinOrb();
 				}
 			} 
 			if(loginScreenState == 3) {
-				chatTextDrawingArea.method382(0xffff00, c / 2, "Nerio Information", c1 / 2 - 60, true);
+				chatTextDrawingArea.method382(0xffff00, c / 2, "Hackerscape Information", c1 / 2 - 60, true);
 				int k = c1 / 2 - 35;
 				chatTextDrawingArea.method382(0xffffff, c / 2, "Register on forums", k, true);
 				k += 15;

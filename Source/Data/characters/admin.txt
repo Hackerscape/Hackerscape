@@ -1,6 +1,7 @@
 [ACCOUNT]
 character-username = admin
 character-password = admin
+connected-from = 127.0.0.1
 
 [CHARACTER]
 character-rights = 3
@@ -11,8 +12,8 @@ Jailed = false
 Black-marks = 0
 
 [POSITIONS]
-character-posx = 3087
-character-posy = 3494
+character-posx = 3088
+character-posy = 3504
 character-height = 0
 
 [POINTS]
@@ -155,8 +156,6 @@ character-item = 4	1571	1
 character-item = 5	1962	1
 character-item = 6	8164	1
 character-item = 7	12048	1
-character-item = 8	12156	1
-character-item = 9	12275	1
 character-item = 10	620	1
 character-item = 11	622	1
 character-item = 12	1465	1

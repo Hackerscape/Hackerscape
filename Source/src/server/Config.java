@@ -7,8 +7,8 @@ public class Config {
 
 	public static final boolean SERVER_DEBUG = false;
 	
-	public static final String SERVER_NAME = "Nerio";
-	public static final String WELCOME_MESSAGE = "Welcome to Nerio";
+	public static final String SERVER_NAME = "Hackerscape";
+	public static final String WELCOME_MESSAGE = "Welcome to Hackerscape";
 	public static final String FORUMS = "http://Neriops.createaforum.com";
 	
 	public static final int CLIENT_VERSION = 1;

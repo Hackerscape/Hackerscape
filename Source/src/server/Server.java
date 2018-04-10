@@ -113,7 +113,7 @@ try {
 		 
 		System.setOut(new Logger(System.out));
 		System.setErr(new Logger(System.err));
-		System.out.println("Launching Nerio - Ore");
+		System.out.println("Launching Hackerscape - Ore");
 		//MadTurnipConnection md = new MadTurnipConnection();
 	      //md.start();
 		  

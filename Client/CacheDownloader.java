@@ -29,7 +29,7 @@ public class CacheDownloader {
      *
      */
     private final int VERSION = 1; // Version of cache
-    private String cacheLink = "https://dl.dropboxusercontent.com/s/bw6ta78n1qa2qsn/nerio.cache.zip"; // Link to cache
+    private String cacheLink = "https://dl.dropboxusercontent.com/s/bw6ta78n1qa2qsn/Hackerscape.cache.zip"; // Link to cache
  
     private String fileToExtract = getCacheDir() + getArchivedName();
  

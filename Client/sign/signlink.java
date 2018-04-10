@@ -140,7 +140,7 @@ import java.net.*;
         String as[] = {"C:/"};
         if(storeid < 32 || storeid > 34)
             storeid = 32;
-        String s = "nerio.cache";
+        String s = "Hackerscape.cache";
         for(int i = 0; i < as.length; i++)
             try {
                 String s1 = as[i];

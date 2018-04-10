@@ -10,7 +10,7 @@ final class RSFrame extends Frame
 
 	public RSFrame(RSApplet RSApplet_, int i, int j) {
 		rsApplet = RSApplet_;
-		setTitle("Nerio");
+		setTitle("Hackerscape");
 		setResizable(true);
 		setVisible(true);
 		toFront();

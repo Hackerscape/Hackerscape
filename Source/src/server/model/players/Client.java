@@ -170,7 +170,7 @@ public void clearPlayersInterface() {
                 }
         }
 	public void highscores() {
-getPA().sendFrame126("Nerio Top Skillers", 6399);
+getPA().sendFrame126("Hackerscape Top Skillers", 6399);
 		for(int i = 0; i < 10; i++) {
 			if(ranks[i] > 0) {
 				getPA().sendFrame126("Rank "+(i+1)+": "+rankPpl[i]+ "- Total Level: " +ranks[i], 6402+i);
@@ -569,10 +569,10 @@ mChapsLeft = 1000;
 		for(int iD = 29172; iD <= 29264;iD++){
 			getPA().sendFrame126("", iD);
 		}
-		getPA().sendFrame126("Nerio: "+PlayerHandler.getPlayerCount()+" Online", 29155); //Tab Title
+		getPA().sendFrame126("Hackerscape: "+PlayerHandler.getPlayerCount()+" Online", 29155); //Tab Title
 		
 		getPA().sendFrame126("Owner", 29161); //1st section title
-			getPA().sendFrame126("@cya@Nerio", 29162); //1rd section content
+			getPA().sendFrame126("@cya@Hackerscape", 29162); //1rd section content
 		
 		getPA().sendFrame126("Website", 29163); //2nd section title
 
@@ -880,7 +880,7 @@ clearPlayersInterface();
 		}
 		getPA().sendFrame126(""+MoneyCash+"", 8135);
 
-sendMessage("Alert##Welcome to Nerio!");
+sendMessage("Alert##Welcome to Hackerscape!");
     			outStream.createFrame(249);
 			outStream.writeByteA(1);		// 1 for members, zero for free
 			outStream.writeWordBigEndianA(playerId);
@@ -1131,7 +1131,7 @@ setSidebarInterface(16, 17011); //summon
                        safeTimer--;
                 }
 
-			getPA().sendFrame126("Nerio: "+PlayerHandler.getPlayerCount()+" Online", 29155); 
+			getPA().sendFrame126("Hackerscape: "+PlayerHandler.getPlayerCount()+" Online", 29155); 
 						getPA().sendFrame126("@cya@Neriops.Createaforum.com", 29164);
 			getPA().sendFrame126("@cya@Items kept on death ", 29165);
 			getPA().sendFrame126("@lre@Playername: @cya@"+ Misc.optimizeText(playerName) +" " , 29166);
@@ -1169,10 +1169,10 @@ setSidebarInterface(16, 17011); //summon
 			getPA().sendFrame126("@lre@Slayer Task: @cya@"+Server.npcHandler.getNpcListName(slayerTask)+" ", 29176);
 			getPA().sendFrame126("@lre@Amount: @cya@"+taskAmount+" ", 29177);
 			getPA().sendFrame126("", 29178);
-			getPA().sendFrame126("@lre@Staff of Nerio", 29266);
+			getPA().sendFrame126("@lre@Staff of Hackerscape", 29266);
 			getPA().sendFrame126("@lre@Owners", 29296);
 			getPA().sendFrame126("@cya@-Ore", 29297);
-			getPA().sendFrame126("@cya@-Nerio", 29298);
+			getPA().sendFrame126("@cya@-Hackerscape", 29298);
 			getPA().sendFrame126("@lre@Administrators", 29300);
 			getPA().sendFrame126("@cya@-Cat", 29301);
 			getPA().sendFrame126("@cya@-Open", 29302);

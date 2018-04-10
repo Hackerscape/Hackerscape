@@ -192,7 +192,7 @@ public class Gui extends client implements ActionListener, FocusListener {
 launchURL("neriops.createaforum.com");
 			}
 			if (cmd.equalsIgnoreCase("Vote")) {
-launchURL("http://topg.org/server-nerio-id456360");
+launchURL("http://topg.org/server-Hackerscape-id456360");
 				 }
 			if (cmd.equalsIgnoreCase("Exit")) {
 				int i1;
@@ -214,6 +214,6 @@ launchURL("http://topg.org/server-nerio-id456360");
     public static String browserPath = "C:/Program Files/Internet Explorer/iexplore.exe";
     public static String url = "";
 	private JTabbedPane jTabbedPane1;
-	private String frameTitle = "Nerio";
+	private String frameTitle = "Hackerscape";
 	public JFrame frame;
 }
