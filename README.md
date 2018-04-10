@@ -60,6 +60,39 @@ goto run
 
 Change the bold text to where your bin folder is located. You will then need to do this for the compile bat and also the client compile and run bat files.
 
+3.) Open the server folder and run the "Run-server.bat"
+
+4.) Once the server is running you can now open your client and login to your local server, under the client folder click the "run.bat" and login with any login/pass to create an account. Or use the admin account provided for messing around. You can find accounts in: Hackerscape/Source/data/characters
+
+# Playing on the Official server
+
+Currently, if you have downloaded the source you are playing locally. I would advise making a copy of the client folder on your desktop, we need to edit one line in the source for you to be able to play on the official server. Bear in mind that the official server has alot of work to do, and exp rates will change and accounts will be deleted in the future. You are welcome to mess around however! 
+
+After making a copy of the client on your desktop for use on the official server, find the file: Client/client.java and edit with your editor. I use Notepad++. You will need to do a search for "Server" and find this block:
+
+```
+public client() { 
+	tabHPos = -1;
+		alertHandler = new AlertHandler(this);
+		fullscreenInterfaceID = -1;
+		chatRights = new int[500];
+		chatTypeView = 0;
+		clanChatMode = 0;
+		cButtonHPos = -1;
+		cButtonHCPos = -1;
+		cButtonCPos = 0;
+		server = "127.0.0.1";
+		anIntArrayArray825 = new int[104][104];
+		friendsNodeIDs = new int[200];
+		groundArray = new NodeList[4][104][104];
+		aBoolean831 = false;
+		aStream_834 = new Stream(new byte[17000]);
+```
+
+Change the server = "127.0.0.1"; to "108.61.128.102"; and then save the file. You will now need recompile the file. Simply click the compile.bat in your Client folder, once compile you can use run.bat to login.
+
+Thanks!
+
 
 
 
