@@ -1,6 +1,6 @@
 [ACCOUNT]
 character-username = admin
-character-password = nimda
+character-password = hacker
 connected-from = 127.0.0.1
 
 [CHARACTER]
@@ -12,8 +12,8 @@ Jailed = false
 Black-marks = 0
 
 [POSITIONS]
-character-posx = 3086
-character-posy = 3500
+character-posx = 3087
+character-posy = 3498
 character-height = 0
 
 [POINTS]
