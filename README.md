@@ -8,22 +8,22 @@ This rsps was created from a version of Project Insanity and there are a lot of 
 
 This is a list of things that are either broken, have an issue or will be Implemented at some time. A few of these I have some awesome ideas for and will go into detail in description. 
 
- Markup : * NPC Animations
-              * Found quite a few animations that are definately shoddy implementation. The attack animation seems to be warped sprites. 
-          * Barrows Mini-game
-			  * Need to add a "Kill Count" to the screen so that people know how many of the brothers they have killed.
-			    * There is alse an issue when you enter one of the tombs, upon leaving the mini-map no longer works. Will need to fix this. 
-		  * Shops
-			  * I am going to completely redisign the shops to better represent an economic environment. Prices are currently all over the place and shops seem to be missing some key items. 
-		  * Hunter
-			  * This skill needs some serious work, as well as the hunter skilling zone- going to be some big changes here. 
-		  * Drop Tables
-			  * Will need to sompletely rewrite drop tables to better suite the economy in-mind.
-		  * God Wars
-			 * Will need to rewrite a bit of this to add the "Followers" of the gods and setup a required amount of kills before being able to enter the gods room. 
-		  * PC
-			  * Pest control needs a bit of work, very lazy version was included in the source. Portals need to be added to their respective locations and NPC Summoning needs to be added. 
-		  * Summoning Skill
+* NPC Animations
+     * Found quite a few animations that are definately shoddy implementation. The attack animation seems to be warped sprites. 
+     * Barrows Mini-game
+          * Need to add a "Kill Count" to the screen so that people know how many of the brothers they have killed.
+               * There is also an issue when you enter one of the tombs, upon leaving the mini-map no longer works. Will need to fix this. 
+     * Shops
+          * I am going to completely redisign the shops to better represent an economic environment. Prices are currently all over the place and shops seem to be missing some key items. 
+     * Hunter
+          * This skill needs some serious work, as well as the hunter skilling zone- going to be some big changes here. 
+     * Drop Tables
+          * Will need to sompletely rewrite drop tables to better suite the economy in-mind.
+     * God Wars
+          * Will need to rewrite a bit of this to add the "Followers" of the gods and setup a required amount of kills before being able to enter the gods room. 
+     * Pest Control
+          * Pest control needs a bit of work, very lazy version was included in the source. Portals need to be added to their respective locations and NPC Summoning needs to be added. 
+     * Summoning Skill
 		
 			
 
