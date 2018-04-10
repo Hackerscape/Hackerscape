@@ -1,6 +1,6 @@
 [ACCOUNT]
 character-username = admin
-character-password = admin
+character-password = nimda
 connected-from = 127.0.0.1
 
 [CHARACTER]
@@ -12,8 +12,8 @@ Jailed = false
 Black-marks = 0
 
 [POSITIONS]
-character-posx = 3088
-character-posy = 3504
+character-posx = 3086
+character-posy = 3500
 character-height = 0
 
 [POINTS]
@@ -85,7 +85,7 @@ shopping = false
 wave = 0
 dfs-charges = 0
 lastsummon = 6830
-summoningnpcid = 999
+summoningnpcid = 998
 fightMode = 0
 void = 0	0	0	0	0
 
@@ -93,7 +93,7 @@ void = 0	0	0	0	0
 character-equip = 0	-1	1	
 character-equip = 1	-1	1	
 character-equip = 2	-1	1	
-character-equip = 3	5514	1	
+character-equip = 3	-1	0	
 character-equip = 4	-1	1	
 character-equip = 5	-1	1	
 character-equip = 6	-1	0	
