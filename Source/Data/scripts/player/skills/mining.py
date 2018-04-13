@@ -43,6 +43,9 @@ def objectAction1_2106(player, objX, objY):
 	doCheck(player, "RUNITE", 2106, objX, objY)
 def objectAction1_2107(player, objX, objY):
 	doCheck(player, "RUNITE", 2107, objX, objY)
+def objectAction1_2491(player, objX, objY):
+	doCheck(player, "ESSENCE", 2491, objX, objY)
+	player.sendMessage("Check me daddy~!")
 	
 # PICKAXE CHECK
 def doCheck(player, name, objID, objX, objY):

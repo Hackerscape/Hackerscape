@@ -225,6 +225,9 @@ return;
 if (playerCommand.equals("home")) {
 c.getPA().startTeleport(3087, 3491, 0, "modern"); 
 }
+if (playerCommand.equals("ess")) {
+c.getPA().startTeleport(2897, 4817, 0, "modern"); 
+}
 if (playerCommand.equals("skill")) {
 c.getPA().startTeleport(2852, 3432, 0, "modern"); 
 }

@@ -191,7 +191,7 @@ public class CacheDownloader {
         throws IOException {
  
         FileOutputStream out = new FileOutputStream(s);
-        //System.out.println("unzipping " + s);
+        System.out.println("unzipping " + s);
         byte [] b = new byte[BUFFER];
         int len = 0;
  

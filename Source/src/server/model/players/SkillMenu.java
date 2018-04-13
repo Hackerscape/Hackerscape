@@ -60,18 +60,18 @@ public class SkillMenu {
 	 * "Bronze Axe","Iron Axe","Logs","Steel Axe","Oak Logs","Mithril Axe","Willow Logs","Adamant Axe","Rune Axe","Maple Logs","Yew Logs","Dragon Axe","Magic Logs","Cape of Achievement"
 	 */
 	
-	/** mining
-	 * 
-	 * 1265,1267,1436,434,436,1269,440,442,1273,453,1271,444,1275,447,449,451,9792
-	 * "1","1","1","1","1","1","6","15","20","21","30","31","40","41","65","70","85","99"
-	 * "Bronze pickaxe","Iron pickaxe","Rune essence","Clay","Copper","Tin","steel pickaxe","Iron ore","Silver ore","Mithril pickaxe","Coal ore","Adamant pickaxe","Gold ore","Rune pickaxe","Mithril ore","Adamanetite ore","Runite ore"
-	 */
+	 /*mining
+	  
+	  1265,1267,1436,434,436,1269,440,442,1273,453,1271,444,1275,447,449,451,9792
+	  "1","1","1","1","1","1","6","15","20","21","30","31","40","41","65","70","85","99"
+	  "Bronze pickaxe","Iron pickaxe","Rune essence","Clay","Copper","Tin","steel pickaxe","Iron ore","Silver ore","Mithril pickaxe","Coal ore","Adamant pickaxe","Gold ore","Rune pickaxe","Mithril ore","Adamanetite ore","Runite ore"
+	 
 	
-	/**
-	 * 
-	 * 556,558,555,557,554,559,564,562,9075,561,563,560,565
-	 * "1","2","5","9","14","20","27","35","40","44","54","65","77"
-	 * "Air rune","Mind rune","Water rune","Earth rune","Fire rune","Body rune","Cosmic rune","Chaos rune","Astral rune","Nature rune","Law rune","Death rune","Blood rune"
+	
+	  
+	  556,558,555,557,554,559,564,562,9075,561,563,560,565
+	  "1","2","5","9","14","20","27","35","40","44","54","65","77"
+	  "Air rune","Mind rune","Water rune","Earth rune","Fire rune","Body rune","Cosmic rune","Chaos rune","Astral rune","Nature rune","Law rune","Death rune","Blood rune"
 	 */
 	private static final String[] SKILLS = {"Attack","Defence","Strength","Hitpoints","Ranged","Prayer","Magic"};
 	

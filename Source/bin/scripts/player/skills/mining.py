@@ -43,6 +43,9 @@ def objectAction1_2106(player, objX, objY):
 	doCheck(player, "RUNITE", 2106, objX, objY)
 def objectAction1_2107(player, objX, objY):
 	doCheck(player, "RUNITE", 2107, objX, objY)
+def objectAction1_2491(player, objX, objY):
+	doCheck(player, "ESSENCE", 2491, objX, objY)
+	player.sendMessage("Check me daddy~!")
 	
 # PICKAXE CHECK
 def doCheck(player, name, objID, objX, objY):
@@ -59,6 +62,7 @@ def doCheck(player, name, objID, objX, objY):
 				doMine(player, name, objID, objX, objY)
 			elif player.hasItem(1265) or player.hasItem(1267):
 				doMine(player, name, objID, objX, objY)
+				player.sendMessage("Im working on it..")
 			else:
 				player.sendMessage("You do not have a pickaxe of which you have the level to use.")
 		elif player.freeSlots() == 0:
@@ -75,6 +79,10 @@ def doMine(player, name, objID, x, y):
 		player.sendMessage("Your swing your pickaxe at the rock...")
 		player.setAnimation(0x554)
 		TaskManager.registerClientTask(TaskFactory.getDelayedTask("callback_mining_TIN", player, objID, x, y), random.randrange(1, 4))
+	elif name == "ESSENCE":
+		player.sendMessage("Your swing your pickaxe at the rock...")
+		player.setAnimation(0x554)
+		TaskManager.registerClientTask(TaskFactory.getDelayedTask("callback_mining_ESSENCE", player, objID, x, y), random.randrange(1, 4))
 	elif name == "IRON":
 		if level >= 15:
 			player.sendMessage("You swing your pickaxe at the rock...")
@@ -137,6 +145,14 @@ def callback_mining_COPPER(player, id, x, y):
 def callback_mining_TIN(player, id, x, y):
 	player.sendMessage("You get some tin ore.")
 	player.addItem(438, 1)
+	player.addSkillXP(17, 14)
+	player.resetAnimation()
+	PlayerManager.replaceObjectGlobal(x, y, 450, 0, 10)
+	TaskManager.registerClientTask(TaskFactory.getDelayedGlobalTask("callback_mining_replace", id, x, y), 3)
+
+def callback_mining_ESSENCE(player, id, x, y):
+	player.sendMessage("You get some pure essence")
+	player.addItem(7936, 1)
 	player.addSkillXP(17, 14)
 	player.resetAnimation()
 	PlayerManager.replaceObjectGlobal(x, y, 450, 0, 10)

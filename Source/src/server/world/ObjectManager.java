@@ -94,7 +94,7 @@ public class ObjectManager {
 	public void loadCustomSpawns(Client c) {
 
 //START OF HOME OBJECT
-
+c.getPA().checkObjectSpawn(2491, 3087, 3503, 1, 10);//Stall level 1
 c.getPA().checkObjectSpawn(4874, 3098, 3500, 1, 10);//Stall level 1
 c.getPA().checkObjectSpawn(4875, 3097, 3500, 1, 10);//Stall level 25
 c.getPA().checkObjectSpawn(4876, 3096, 3500, 0, 10);//Stall level 50
@@ -172,7 +172,7 @@ c.getPA().checkObjectSpawn(-1, 3092, 3496, -1, 10);//Removing Home Bank Chair
 		c.getPA().checkObjectSpawn(4412, 3017, 5243, 0, 10); //escape ladder
 		c.getPA().checkObjectSpawn(4412, 2427, 9411, 0, 10); //escape ladder
 		c.getPA().checkObjectSpawn(2465, 2422, 9429, 0, 10); //escape ladder
-                c.getPA().checkObjectSpawn(2094, 3032, 9836, 0, 10);
+				c.getPA().checkObjectSpawn(2094, 3032, 9836, 0, 10);
                 c.getPA().checkObjectSpawn(2094, 3033, 9836, 0, 10);
                 c.getPA().checkObjectSpawn(2091, 3034, 9836, 0, 10);
                 c.getPA().checkObjectSpawn(2091, 3035, 9836, 0, 10);

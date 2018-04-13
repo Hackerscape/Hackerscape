@@ -15,13 +15,14 @@ public class Mining {
 	private final int VALID_PICK[] = {1265,1267,1269,1273,1271,1275,15259,13661};
 	private final int[] PICK_REQS = {1,1,6,6,21,31,41,61};
 	private final int[] RANDOM_GEMS = {1623,1621,1619,1617,1631};
+	private final int[] EMOTES = {6753,6754,6755,6757,6756,6752,12169,10224};
 	private int oreType;
 	private int exp;
 	@SuppressWarnings("unused")
 	private int levelReq;
 	@SuppressWarnings("unused")
 	private int pickType;
-	private final int EMOTE = 12188;
+	private int EMOTE;
 	
 	public Mining(Client c) {
 		this.c = c;
@@ -35,10 +36,32 @@ public class Mining {
 				this.exp = exp;
 				this.levelReq = levelReq;
 				this.pickType = goodPick();
+				/*Determine Emote to use
+				if (this.pickType == 1265) {
+					this.EMOTE = 6753;
+						c.sendMessage("Bronze Pick");
+				}
+				if (this.pickType == 1267) {
+					this.EMOTE = 6754;
+						c.sendMessage("Bronze Pick");
+				}
+				*/
+				
+				if (this.oreType == 7936 && this.pickType == 1267) {
+					c.sendMessage("Your start mining essence!");
+					c.miningTimer = getMiningTimer(oreType);
+					c.startAnimation(EMOTE);
+			} else if (this.oreType == 7936 && this.pickType != 1267) { 
+			resetMining();
+			c.sendMessage("You can only mine essence with an Iron Pick."); 
+			
+			}
+			} else if (this.oreType != 7936) {
 				c.sendMessage("You swing your pick at the rock.");
 				c.miningTimer = getMiningTimer(oreType);
 				c.startAnimation(EMOTE);
-			} else {
+			}
+			else if (c.playerLevel[c.playerMining] <= levelReq) {
 				resetMining();
 				c.sendMessage("You need a mining level of " + levelReq + " to mine this rock.");
 				c.startAnimation(65535);
@@ -79,6 +102,8 @@ public class Mining {
 		for (int j = VALID_PICK.length - 1; j >= 0; j--) {
 			if (c.playerEquipment[c.playerWeapon] == VALID_PICK[j]) {
 				if (c.playerLevel[c.playerMining] >= PICK_REQS[j])
+					this.EMOTE = this.EMOTES[j];
+					c.sendMessage("Emote is: " + this.EMOTE);
 					return VALID_PICK[j];
 			}		
 		}

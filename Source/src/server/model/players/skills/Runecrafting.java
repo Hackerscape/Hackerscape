@@ -125,11 +125,20 @@ public class Runecrafting {
 								multiplier += 1;
                             }
                         }
+						if (c.getItems().playerHasItem(RUNE_ESS)) {
                         replaceEssence(RUNE_ESS, runeID, multiplier, i);
                         c.startAnimation(791);
                         //c.frame174(481, 0, 0); for sound
                         c.gfx100(186);
                         return;
+						}
+						if (c.getItems().playerHasItem(PURE_ESS)) {
+                        replaceEssence(PURE_ESS, runeID, multiplier, i);
+                        c.startAnimation(791);
+                        //c.frame174(481, 0, 0); for sound
+                        c.gfx100(186);
+                        return;
+						}
                     }
                     c.sendMessage("You need to have essence to craft runes!");
                     return;

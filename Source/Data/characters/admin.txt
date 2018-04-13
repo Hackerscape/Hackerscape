@@ -7,28 +7,28 @@ connected-from = 127.0.0.1
 character-rights = 3
 isDonator = 0
 character-title = 0
-MoneyOrb = 6000
+MoneyOrb = 0
 Jailed = false
 Black-marks = 0
 
 [POSITIONS]
-character-posx = 3087
-character-posy = 3498
+character-posx = 3031
+character-posy = 9826
 character-height = 0
 
 [POINTS]
 Credits = 0
 SPoints = 0
-pc-points = 1000
+pc-points = 0
 pk-points = 0
 dungPoints = 0
-magePoints = 2
+magePoints = 0
 votingPoints = 0
 donatorChest = 0
 
 [KILL AND DEATH]
-KC = 6
-DC = 6
+KC = 0
+DC = 0
 
 [BOSSES]
 Arma-KC = 0
@@ -37,11 +37,11 @@ Zammy-KC = 0
 Sara-KC = 0
 
 [OTHERS]
-EP = 100
+EP = 0
 shopcollect = 0
 crystal-bow-shots = 0
 VLS-hits = 0
-skull-timer = -1
+skull-timer = 0
 character-longsword = 1000
 character-warhammer = 1000
 character-spear = 1000
@@ -56,7 +56,7 @@ character-robe top = 1000
 character-robe bottom = 1000
 character-leather body = 1000
 character-chaps = 1000
-magic-book = 1
+magic-book = 0
 brother-info = 0	0
 brother-info = 1	0
 brother-info = 2	0
@@ -64,28 +64,28 @@ brother-info = 3	0
 brother-info = 4	0
 brother-info = 5	0
 special-amount = 10.0
-selected-coffin = 3
+selected-coffin = 0
 barrows-killcount = 0
 teleblock-length = 0
 gwdelay = 0
 summonSpec0
 dungRest =0
 Altar = 0
-slayerTask = 103
+slayerTask = 0
 xpLock = false
-taskAmount = 23
+taskAmount = 0
 totalstored = 0
 autoRet = 0
 trade11 = 0
 SpeDelay = 0
 barrowskillcount = 0
-flagged = true
+flagged = false
 Rules = false
 shopping = false
 wave = 0
 dfs-charges = 0
-lastsummon = 6830
-summoningnpcid = 998
+lastsummon = 0
+summoningnpcid = 0
 fightMode = 0
 void = 0	0	0	0	0
 
@@ -93,7 +93,7 @@ void = 0	0	0	0	0
 character-equip = 0	-1	1	
 character-equip = 1	-1	1	
 character-equip = 2	-1	1	
-character-equip = 3	-1	0	
+character-equip = 3	15259	1	
 character-equip = 4	-1	1	
 character-equip = 5	-1	1	
 character-equip = 6	-1	0	
@@ -103,7 +103,7 @@ character-equip = 9	-1	1
 character-equip = 10	-1	1	
 character-equip = 11	-1	0	
 character-equip = 12	-1	1	
-character-equip = 13	-1	0	
+character-equip = 13	882	500	
 
 [LOOK]
 character-look = 0	0
@@ -121,21 +121,21 @@ character-look = 11	0
 character-look = 12	0
 
 [SKILLS]
-character-skill = 0	99	26817160
-character-skill = 1	99	28470160
+character-skill = 0	99	14391160
+character-skill = 1	99	14391160
 character-skill = 2	99	14391160
-character-skill = 3	99	23759008
+character-skill = 3	99	14391160
 character-skill = 4	99	14391160
 character-skill = 5	99	14391160
-character-skill = 6	99	15988105
-character-skill = 7	99	18017260
+character-skill = 6	99	14391160
+character-skill = 7	99	14391160
 character-skill = 8	99	14391160
 character-skill = 9	99	14391160
-character-skill = 10	99	14451910
+character-skill = 10	99	14391160
 character-skill = 11	99	14391160
 character-skill = 12	99	14391160
 character-skill = 13	99	14391160
-character-skill = 14	99	14391160
+character-skill = 14	99	16228660
 character-skill = 15	99	14391160
 character-skill = 16	99	14391160
 character-skill = 17	99	14391160
@@ -144,25 +144,14 @@ character-skill = 19	99	14391160
 character-skill = 20	99	14391160
 character-skill = 21	99	14391160
 character-skill = 22	99	14391160
-character-skill = 23	99	14343160
+character-skill = 23	99	14391160
 character-skill = 24	99	14391160
 
 [ITEMS]
-character-item = 0	12164	1
-character-item = 1	12124	1
-character-item = 2	12797	1
-character-item = 3	12650	1
-character-item = 4	1571	1
-character-item = 5	1962	1
-character-item = 6	8164	1
-character-item = 7	12048	1
-character-item = 10	620	1
-character-item = 11	622	1
-character-item = 12	1465	1
-character-item = 13	2997	1
+character-item = 0	1276	1
+character-item = 1	13662	1
 
 [BANK]
-character-bank = 0	996	600100000
 
 [FRIENDS]
 

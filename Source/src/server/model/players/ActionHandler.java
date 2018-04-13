@@ -1527,7 +1527,8 @@ break;
 			c.mining[1] = 1;
 			c.mining[2] = 18;
 			c.getMining().startMining(c.mining[0], c.mining[1], c.mining[2]);
-		break;		
+		break;	
+		
 		
 		case 145856:
 		case 2092:
@@ -1554,6 +1555,12 @@ break;
 			c.mining[0] = 444;
 			c.mining[1] = 40;
 			c.mining[2] = 65;
+			c.getMining().startMining(c.mining[0], c.mining[1], c.mining[2]);
+		break;
+		case 2491: //rune essence
+			c.mining[0] = 7936;
+			c.mining[1] = 1;
+			c.mining[2] = 30;
 			c.getMining().startMining(c.mining[0], c.mining[1], c.mining[2]);
 		break;
 		

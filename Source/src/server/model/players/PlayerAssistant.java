@@ -3242,7 +3242,7 @@ public void addStarter() {
 		c.getItems().addItem(6908, 1);
 		c.getItems().addItem(146, 15);
 		c.getItems().addItem(158, 15);
-
+		WelcomeNew();
 		c.sendMessage("You can't trade for 15 minutes!");
 				c.getPA().showInterface(3559);
 				c.canChangeAppearance = true;
@@ -3413,6 +3413,7 @@ public void addStarter() {
 		return false;	
 	}
 	
+	
 	public void checkPouch(int i) {
 		if (i < 0)
 			return;
@@ -3471,6 +3472,7 @@ public void addStarter() {
 			c.getItems().deleteItem(995, c.getItems().getItemSlot(995), totalCost);		
 	}
 	
+	
 	public void handleLoginText() {
 
 		c.getPA().sendFrame126("Monster Teleport", 1300);
@@ -3524,6 +3526,10 @@ public void addStarter() {
 		}
 	}
 	
+	public void WelcomeNew() {
+		sendQuest("::talkon YOURTEXT - repeats a message (for buying/selling)", 8147);
+		
+	}
 	
 	
 }
